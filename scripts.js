@@ -1,6 +1,6 @@
 // Initialize EmailJS with your public key
 (function () {
-  emailjs.init('YOUR_PUBLIC_KEY'); // Replace with your EmailJS public key
+  emailjs.init('wwnZKE_PJtpTh7QKV'); // Replace with your EmailJS public key
 })();
 
 // Smooth scrolling for anchor links
@@ -70,8 +70,8 @@ contactForm.addEventListener('submit', function (e) {
   // Send email using EmailJS
   emailjs
     .send(
-      'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-      'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+      'service_ko8jzfo', // Replace with your EmailJS service ID
+      'template_kwpf9sr', // Replace with your EmailJS template ID
       templateParams
     )
     .then(
